@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+h1{
+    background-color: #1c1f25;
+    color: #fff;
+    font-size: 2.5rem;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choiches{
+display: flex;
+align-items: center;
+justify-self: center;
+gap: 2rem;
+margin-top: 17px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: fill;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.choich{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choich:active{
+    background-color: #1e272e;
+}
+.Scrore_boared{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 2rem;
+
+}
+#Comp,
+#You{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 5rem;
+}
+.msg_container{
+    margin: 3rem;
+}
+#msg{
+    font-size: 2rem;
+    background-color: #1e272e;
+    display: inline-block;
+    border-radius: 2rem;
+    padding: 1rem;
+    color: white;
+}
